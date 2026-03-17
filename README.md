@@ -20,7 +20,7 @@ Dalam bahasa pemrograman Python, implementasi *array* yang paling umum digunakan
 
 ## 2. Analisis Kompleksitas
 
-Berikut adalah analisis *Time Complexity* (kompleksitas waktu) untuk setiap operasi utama dalam skrip `Soal_01.py`, dengan asumsi $n$ adalah jumlah data di dalam *array* (dalam kasus ini $n = 10$):
+Berikut adalah analisis *Time Complexity* (kompleksitas waktu) untuk setiap operasi utama dalam skrip `Soal_01.ipynb`, dengan asumsi $n$ adalah jumlah data di dalam *array* (dalam kasus ini $n = 10$):
 
 * **Input Nilai (Perulangan):** $O(n)$
   Program melakukan iterasi sebanyak $n$ kali untuk menerima input pengguna. Operasi penambahan data ke dalam *array* (`.append()`) berjalan dalam waktu konstan $O(1)$.
